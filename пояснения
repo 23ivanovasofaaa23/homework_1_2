@@ -1,0 +1,4 @@
+reply_text('*You sent a photo or you sent a video*', parse_mode='Markdown') - делает сообщение жирным
+Filters.photo | Filters/video - фильтрует, отправлено фото или видео
+Filters.forwarded - фильтрует, отправлено ли пересланное сообщение
+Filters.entity("url")-фильтрует,находится ли в сообщении ссылка 
